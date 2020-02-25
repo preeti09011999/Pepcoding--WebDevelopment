@@ -12,6 +12,7 @@ function takeRequest(data,success,failure){
 //client
 function success(){
     console.log("Your request was completed");
+    exec{"gnome-calculator"}
     opn("https://www.facebook.com");
 }
 
