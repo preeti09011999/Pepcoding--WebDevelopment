@@ -8,7 +8,6 @@ function lib(number){
     return true;
 }
 
-
 //using library
 let ans = lib(21);
 if(ans == false){
