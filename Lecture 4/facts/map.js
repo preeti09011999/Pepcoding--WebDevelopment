@@ -1,4 +1,5 @@
 let array = [4,14,17,23,48,66];
+//map function
 console.log(array);
 array = array.map(function myFn(num){
     if(num%2 == 0){
