@@ -1,5 +1,5 @@
 const fs = require("fs");
-
+//view command
 module.exports.view = function (){
     //you can also write it as function(src, mode) --> it will contain the values itself, if
     //you don;t want it to assign as arguments[0] or arguments[1].
