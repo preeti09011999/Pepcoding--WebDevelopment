@@ -7,7 +7,9 @@ Array.prototype.sum = function(){
     }
     return arrSum;
 }
-
+//parent class of function is "Function"
+//parent class of array is "Array"
+//parent class of string is "String"
 
 let sum = array.sum();
 console.log(sum);
