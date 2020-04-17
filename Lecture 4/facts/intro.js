@@ -10,6 +10,5 @@ function lib(number){
     console.log("Number is prime");
 }
 //in break --> it will print (Number is prime ) as well.
-
 //using library
 lib(21);
