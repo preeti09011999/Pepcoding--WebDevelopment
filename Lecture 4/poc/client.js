@@ -5,7 +5,6 @@ let lib = require("./lib");
 
 // console.log(myFn());
 
-
 lib.happyLibrary();
 // lib.myProperty
 // we have to console this.
