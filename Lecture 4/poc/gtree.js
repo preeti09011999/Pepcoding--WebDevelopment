@@ -35,6 +35,7 @@ function viewGTree(node){
         let child = node.children[i];
         meNMyFamily+= child.data+",";
     }
+    
 // error -->    // console.log(node.data +"=>" node.children)
 console.log(meNMyFamily);
 for(let i=0; i<node.children.length; i++){
