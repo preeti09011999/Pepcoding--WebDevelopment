@@ -4,7 +4,6 @@ function shadowfn(){
 shadowfn("abc");
 shadowfn("");
 
-
 function shadow(){
     //basically it will returns an array.
     console.log(arguments);
