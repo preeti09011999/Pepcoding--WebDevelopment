@@ -22,7 +22,6 @@ else{
     console.log("Number is not prime");
 }
 
-
 let { exec } = require("child process")
 
 function framework(data, scb,fcb){
