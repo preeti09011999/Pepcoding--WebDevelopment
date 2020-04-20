@@ -78,7 +78,6 @@ function handleMatch(html) {
 
     }
     // console.log("----------------------------------");
-
 }
 
 function handlePlayer(format,team,batsman,batsmanRun){
