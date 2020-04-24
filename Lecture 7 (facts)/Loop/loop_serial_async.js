@@ -12,4 +12,4 @@ fs.readFile(files[i],function(err,data){
     console.log(`Data of files${i+1} : ${data.byteLength}`);
     readFiles(i+1);
 })
-}
+} 
