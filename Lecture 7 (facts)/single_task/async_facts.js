@@ -6,6 +6,6 @@ console.log("CPU is stuck till file is read");
 fs.readFile("f1.mp4",function(err,data){
     console.log(data.bytelength);
 });
-//binary => array
+//binary => array 
 console.log("cpu is free now");
 console.log("Now I can print something");
