@@ -17,4 +17,4 @@ fs.readFile("../../f2.mp4",function cb(err,data){
 
 //binary => array
 console.log("CPU is free now");
-console.log("Now I can print something");
+console.log("Now I can print something"); 
