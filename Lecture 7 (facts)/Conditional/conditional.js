@@ -19,7 +19,6 @@ fs.readFile("../f1.txt",function(err,data){
        
     }
 else{
-    
     fs.readFile("../f3.txt",function(err,data){
         console.log(`f3 ${data.byteLength}`)
         if(data.byteLength<30){

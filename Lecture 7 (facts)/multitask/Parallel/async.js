@@ -11,7 +11,7 @@ request("https://www.google.com", function (err, res, html) {
 })
 
 let finalTime=Date.now()+10*1000;
-while(Date.now()<finalTime){ 
+while(Date.now()<finalTime){
   }
   console.time("task2");
   request("https://www.google.com", function (err, res, html) {
