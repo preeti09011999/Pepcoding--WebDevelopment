@@ -6,7 +6,7 @@ fs.readFile("../f1.txt",function(err,data){
         fs.readFile("../f2.txt",function (err,data) {
             console.log(`f2 ${data.byteLength}`)
             if(data.byteLength<40){
-                fs.readFile("../f6.txt",function (err,data) {
+                fs.readFile("../f6.txt",function (err,data) { 
             console.log(`f6 ${data.byteLength}`)
             })
             }
