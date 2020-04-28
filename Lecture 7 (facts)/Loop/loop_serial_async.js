@@ -4,7 +4,7 @@ readFiles(0);
 //sequentially n number files read
 function readFiles(i){
     if(i == files.length){
-        return;
+        return; 
     }
 
 
