@@ -19,4 +19,4 @@ setTimeout(function() {
         .catch(function(error) {
             console.log(error);
         });
-    },2000);
+    },2000); 
