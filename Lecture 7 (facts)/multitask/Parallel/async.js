@@ -15,7 +15,7 @@ while(Date.now()<finalTime){
   }
   console.time("task2");
   request("https://www.google.com", function (err, res, html) {
-    // console.log("Data has arrived for r2");
+    // console.log("Data has arrived for r2"); 
     fs.writeFileSync("index1.html", html);
     console.timeEnd("task2")
 })
