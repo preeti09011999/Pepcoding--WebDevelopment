@@ -22,7 +22,7 @@ console.log("Before");
     let data2 = fs.promises.readFile("../../f2.txt");
     let data3 = fs.promises.readFile("../../f3.txt");
     data1 = await data1;
-    console.log("F1's Data"+ data1.length);
+    console.log("F1's Data"+ data1.length); 
     data1 = await data2;
     console.log("F1's Data"+ data2.length);
     data1 = await data3;
