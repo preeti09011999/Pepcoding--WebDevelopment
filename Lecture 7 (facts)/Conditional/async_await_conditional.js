@@ -2,7 +2,7 @@ let fs = require("fs")
 async function conditonBaseFileReadingAsync() {
     let data = await fs.promises.readFile("../../f1.txt","utf-8");
     console.log("f1 data");
-    console.log(data);
+    console.log(data); 
     if( data.byteLength > 20 ) {
         let data = await fs.promises.readFile("../../f2.txt","utf-8");
         console.log("f2 data");
