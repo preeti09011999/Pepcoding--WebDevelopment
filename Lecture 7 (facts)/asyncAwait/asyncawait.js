@@ -20,4 +20,4 @@ async function promiseConsumer(){
         console.log(err);
     }
 }
-promiseConsumer();
+promiseConsumer(); 
