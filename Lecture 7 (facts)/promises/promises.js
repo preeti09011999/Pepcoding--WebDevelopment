@@ -4,7 +4,7 @@ let fs = require("fs");
 //creator
 //resolve
 //reject
-function promisifyfs(path){
+function promisifyfs(path){ 
     let fileWillBeReadPromise = new Promise(function (success,failure){
         fs.readFile(path, function(err, data){
             if(err){
