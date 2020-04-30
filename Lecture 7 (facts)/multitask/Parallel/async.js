@@ -5,7 +5,7 @@ let fs = require("fs");
 let request = require("request");
 console.time("task1");
 request("https://www.google.com", function (err, res, html) {
-  // console.log("Data has arrived for r1");
+  // console.log("Data has arrived for r1"); 
   console.timeEnd("task1")
   fs.writeFileSync("index.html", html)
 })
