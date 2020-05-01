@@ -9,7 +9,7 @@ module.exports = [
     "Tags": "Basics",
     "Testcases": [
       {
-        "Input": "7",
+        "Input": "7", 
         "Output": "Prime"
       },
       {
