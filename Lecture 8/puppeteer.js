@@ -1,6 +1,6 @@
 let puppeteer = require("puppeteer");
 (async function(){
-    //browser open => visible
+    //browser open => visible 
     let browser = await puppeteer.launch({
         headless : false,
         defaultViewport : null,
