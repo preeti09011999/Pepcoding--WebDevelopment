@@ -24,7 +24,7 @@ let questionsFile = process.argv[3];
     // stale element => selected elements were in the page but they are not currently here
     await waitForLoader();
     let manageTabs = await driver.findElements(swd.By.css(".administration header ul li"));
-    await manageTabs[1].click();
+    await manageTabs[1].click(); 
 
     let ManageChallengePage = await driver.getCurrentUrl();
     let questions = require(questionsFile);
