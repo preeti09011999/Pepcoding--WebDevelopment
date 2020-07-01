@@ -1,0 +1,33 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.menu{
+    height: 22px;
+    border: 1px solid darkslategray;
+}
+
+.menu-options{
+    height: 56px;
+    border: 1px solid darkgray;
+}
+
+.formula-bar{
+    height: 26px;
+    border: 1px solid gray;
+}
+
+.cell-container{
+    height: calc(100vh - 124px);
+    background-color: lightgray;
+}
+
+.sheets{
+    height: 20px;
+    border: 1px solid darkgoldenrod;
+}
