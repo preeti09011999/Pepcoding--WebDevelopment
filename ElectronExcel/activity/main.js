@@ -4,7 +4,7 @@
 // make changes to package.json =>
 // "main":"main.js" 
 // script => "start":"electron ."
-
+ 
 const electron = require("electron");
 const app = electron.app;
 function createWindow(){
